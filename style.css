@@ -1,84 +1,118 @@
 body {
-  font-family: 'Slabo 27px', serif;
+    font-family: "Open Sans" , sans-serif;
+    background-color: #d597ce;
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #745c97;
+    width:100%;
+    height: 75px;
+    position: fixed;
+    z-index: 10;
+    padding: 0 15px;
+}
+
+nav {
+    float :right;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header h1 {
+    display:inline-block;
+    vertical-align:middle;
+    text-align:left;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header ul {
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    width: 80px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 75px;
+    text-align: center;
+    width:100%;
+    height: 20%;
+    padding: 5px;
 }
 
 h1 {
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding-bottom: 10px;
+    font-family: "Literata";
+    font-weight: normal;
 }
 
-.separator {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+p, ol li {
+    font-family: sans-serif;
+    text-align: justify;
 }
 
-/* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */
-
-.box-100 {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
+section {
+    background-color: #f5b0cb;
+    width: 80%;
+    margin: 10px auto;
 }
 
-.box-200 {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
+.icon {
+    float: left;
+    margin: 10px;
 }
 
-#maroon-box {
-  color: #FFFFFF;
-  background: #96281B;
+#contact .icon, #about .icon {
+    padding:10px; 
 }
 
-#dark-blue-box {
-  color: #FFFFFF;
-  background: #4B77BE;
+.content {
+    padding: 5px 25px 5px 10px;
+    border: 1px solid lightgrey;
+    margin-top: 5px auto;
+    font-family: "Bitter";
 }
 
-#salem-box {
-  color: #FFFFFF;
-  background: #1E824C;
+h2 {
+    color: black;
+    text-decoration: none;
+    font-size: medium;
 }
 
-.red-background {
-  color: #FFFFFF;
-  background: #C0392B;
+footer {
+    background-color: #39375B;
+    height: 50px;
+    bottom: 0;
 }
 
-.blue-background {
-  color: #FFFFFF;
-  background: #446CB3;
-}
-
-.green-background {
-  color: #FFFFFF;
-  background: #26A65B;
-}
-
-.box-list div {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
-  background: #353535;
-  color: #FFFFFF;
-}
-
-#gold-box {
-  border-radius: 20px;
-  color: #353535;
-  background: #F9BF3B;
+h5 {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
